@@ -1,0 +1,176 @@
+.body{
+    margin : 0;
+    padding: 0;
+    background-color: #ddd;
+}
+.form-box{
+box-shadow: 8px 5px 2px 2px #ddd;
+background-color: #fff;
+}
+.d-flex{
+    text-align: right;
+    justify-content: space-between;
+    padding: 0 20px 0 0;
+}
+#loginbox{
+    margin-top: 15%;
+}
+
+#loginbox ion-icon{
+    margin-top: 10px;
+}
+#loginbox label{
+    font-weight: 600;
+    font-size: 1.3em;
+}
+#loginbox input{
+    border-style: none;
+    border-bottom: 1px solid black;
+}
+#loginbox input:hover{
+    background-color: #ddd;
+    box-shadow: 8px 5px 2px 2px #ffe;
+    font-size: 1.2em;
+    font-weight:600;
+
+}
+#loginbox .btn-coloring{
+    background: linear-gradient(to top, #bc2e2e, #dbbaba);
+    padding: 10px 35px;
+    margin: 15px 0;
+    color:#fff;
+    font-weight: 700;
+}
+
+
+/* dahsboard header */
+
+#header{
+    box-shadow: 2px 2px 2px 2px #fff;
+    background-color: #fff;
+    padding: 20px 30px;
+}
+#header ion-icon{
+    font-size: 2.8em;
+}
+#header h2{
+    font-size: 2.3em;
+    font-weight: 800;
+    letter-spacing: 5px;
+    text-shadow: 2px 2px red;
+}
+#content-box{
+    margin: 2em 0;
+    padding: 2em 20px;
+}
+.box{
+    box-shadow: 2px 2px 2px 2px #f2dddd;
+    padding: 30px 20px 30px 20px;
+    background-color: #fff;
+    margin: 20px 0;
+    font-weight: 600;
+    transition: all ease-in 5s;
+}
+ .iconbox{
+    box-shadow: 2px 2px 2px 2px #dbc0c0;
+    background:linear-gradient(to bottom ,#bc2e2e,#c46565);
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    color: #fff;
+    font-size: 2.1em;
+    margin-left: -45px;
+
+}
+/*
+.box
+}*/
+#content-box .box:hover{
+    .iconbox{
+        margin-top: -70px;
+        margin-left:80px;
+        transition: all ease-in 3s;
+
+    }
+    .text-center{
+        width: 100%;
+        text-align: center;
+        font-weight: 700;
+        margin-top: 1em;
+    }
+}
+#sidebaar{
+    height: 100vh;
+    position: relative;
+
+}
+.sidebaar{
+    height: 100%;
+    background-color: #fff;
+    margin-left: -15px;
+    margin-top: -15px;
+    padding: 50px;
+    position: fixed;
+
+}
+.sidebaar ul li {
+    list-style: none;
+    font-size: 1.2em;
+    margin-top: 20px;
+
+}
+.sidebaar ul li a{
+    text-decoration: none;
+    color: #000;
+}
+.sidebaar ul li a ion-icon{
+    font-weight: 600;
+    font-size: 1.3em;
+    color: maroon;
+    margin-right: 15px;
+}
+.sidebaar ul li a:hover{
+color: blueviolet;
+}
+
+
+.breadcamp{
+    box-shadow: 2px 2px 2px 2px #dbc0c0;
+     background-color: #fff;
+     padding: 25px 30px;
+}
+.breadcrumb-item{
+    box-shadow: 2px 2px 2px 2px #ddd;
+    margin: 5px 15px;
+    padding: 10px 20px;
+    transform: scale(20deg);
+}
+
+/* bloging form card */
+
+.form-card{
+    box-shadow: 2px 2px 2px 2px #dbc0c0;
+    background: linear-gradient(#ce7474,#ddd);
+    padding: 20px 40px;
+}
+.form-card label{
+    font-weight: 650;
+    color: #000;
+    margin-top: 10px;
+}
+.form-card .btn-form{
+    background: linear-gradient(to left,#ce7474,#ddc5c5);
+    color: #fff;
+    font-size: 1.3em;
+    font-weight: 650;
+    margin-top: 20px;
+    padding: 10px 30px;
+    border: none;
+    box-shadow: 2px 2px 2px 2px #e1c6c6;
+}
+.form-card .btn-form:hover{
+    transition: all ease-in 0.5s;
+color: #fff;
+box-shadow: 2px 2px 2px 2px #dbc0c0;
+    background: linear-gradient(to bottom,#ce7474,#ddd);
+}

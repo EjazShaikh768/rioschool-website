@@ -6,6 +6,7 @@
         <title>RIOSCHOOL English Medium Convent School & Jr.College   </title>
 
 <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
 <link rel="stylesheet"  href={{ asset('css/style.css')}}>
 <link rel="stylesheet"  href={{ asset('css/line-icon.css')}}>
 
@@ -23,11 +24,11 @@
         </style>
 
         <style>
-      
+
         </style>
     </head>
     <body>
-       
+
     <!-- header and nav section -->
     <nav class="navbar navbar-expand-md sticky-top py-4 navbar-expand-lg ">
                             <div class="container-fluid">
@@ -64,10 +65,10 @@
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'gallery'}}">GALLERY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'activity'}}">ACTIVITY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'contact'}}">CONTACT</a>
                                     </li>
@@ -117,11 +118,11 @@
                     </div>
                     <div class="card-body justify">
                         <h2>Notice Title Here</h2>
-                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam quas cum tenetur rem temporibus modi praesentium illo pariatur ratione minus, eius aspernatur repudiandae officiis quasi, placeat ipsa molestiae magni eaque adipisci dolorum atque 
+                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam quas cum tenetur rem temporibus modi praesentium illo pariatur ratione minus, eius aspernatur repudiandae officiis quasi, placeat ipsa molestiae magni eaque adipisci dolorum atque
                         ducimus quo fuga! Quasi tenetur tempora, architecto amet dolorem voluptatum eius aspernatur eligendi ipsa autem consequuntur.</p>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam quas cum tenetur rem temporibus modi praesentium illo pariatur ratione minus, eius aspernatur repudiandae officiis quasi, placeat ipsa molestiae magni eaque adipisci dolorum atque 
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, quibusdam quas cum tenetur rem temporibus modi praesentium illo pariatur ratione minus, eius aspernatur repudiandae officiis quasi, placeat ipsa molestiae magni eaque adipisci dolorum atque
                             ducimus quo fuga! Quasi tenetur tempora, architecto amet dolorem voluptatum eius aspernatur eligendi ipsa autem consequuntur.</p>
-                        
+
                     </div>
                   </div>
             </div>
@@ -161,7 +162,7 @@
 
 <!-- hoem about school -->
 
-<section id="backgroundImageFirst">   
+<section id="backgroundImageFirst">
 <section id="HomeAbout">
     <div class="container">
         <div class="row px-4 justify-content-around marginTop">
@@ -176,7 +177,7 @@
                    <p><i class="fa-sharp fa-solid fa-quote-left"></i>
                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam nam rerum omnis aspernatur similique odit molestias nobis, modi beatae id neque facilis eius laboriosam hic vero ut corporis repellat.
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, laboriosam sapiente? Tempore, commodi aut culpa reiciendis iste quia. Saepe rem delectus ipsam beatae sint deserunt velit aliquam, iste ratione maxime?
-                    <i class="fa-sharp fa-solid fa-quote-right"></i></p>  
+                    <i class="fa-sharp fa-solid fa-quote-right"></i></p>
             </div>
         </div>
     </div>
@@ -196,14 +197,14 @@
                     <div class="col-sm-12 col-md-12 col-lg-6 ">
                         <h3 class="text-white" >Anual Gathering Function</h3>
                         <p  class="text-white" >The annual school gathering function is an eagerly awaited event that brings together students, teachers, and parents to celebrate the achievements and successes of the academic year. It is a day filled with excitement, fun, and entertainment, and it is a time to reflect on the hard work and dedication that has gone into making the school year a success. <a href="" class="text-info">ReadMore</a> </p>
-                        <p  class="text-white">Date : <b>15 / August / 2023</b></p>  
-                        <p  class="text-white">Author : <b>Javed Maniyar</b></p>  
+                        <p  class="text-white">Date : <b>15 / August / 2023</b></p>
+                        <p  class="text-white">Author : <b>Javed Maniyar</b></p>
                         <div class="text-end">
                             <!-- <a href=""  class="text-white"> <i class="fa-solid fa-2x fa-circle-arrow-left"></i></a>
                             <a href=""  class="text-white"><i class="fa-solid fa-2x px-4 fa-circle-arrow-right"></i></a> -->
                         </div>
                     </div>
-                     
+
                 </div>
             </div>
         </div>
@@ -231,7 +232,7 @@
                     </div>
                     <div class="col-sm-12 col-md-8 col-lg-8"> <h3>5000 +Students</h3></div>
                 </div>
-            </div>  
+            </div>
 
             <div class="col-sm-12 col-md-3 col-lg-3 border-end">
                 <div class="row">
@@ -279,7 +280,7 @@
                              <div class="circle circlebox2" data-aos="slide-down"></div>
                              <h5 class="pointCard cardbg3"  data-aos="slide-up">Garbage and barren land turns into clean environment and fertile soil.</h5>
                         </div>
-                </div>        
+                </div>
                 <div class="row justify-content-center px-3 ">
                         <div class="col-sm-12 col-md-3 col-lg-3 ">
                              <div class="circle circlebox3" data-aos="slide-down"></div>
@@ -293,7 +294,7 @@
                              <div class="circle circlebox5" data-aos="slide-down"></div>
                              <h5 class="pointCard cardbg6"  data-aos="slide-up">Deforestation into afforestation.</h5>
                         </div>
-                </div>        
+                </div>
             </div>
         </div>
     </div>
@@ -303,7 +304,7 @@
 
 <section>
     <div class="container my-5">
-        <div class="row justify-content-around mt-5" id="classesIMG"> 
+        <div class="row justify-content-around mt-5" id="classesIMG">
                 <div class="col-sm-12 col-md-3 col-lg-3 cards objective   " >
                      <h3>OBJECTIVE</h3>
                      <p class="mx-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt mollitia architecto ex autem a inventore unde quae sint saepe
@@ -325,6 +326,91 @@
 </section>
 </section>
 
+
+<section>
+   <div class="container">
+    <div class="row">
+        <center>
+            <h2>OUR TOPPER'S</h2></center>
+        <div class="swiper mySwiper mb-5">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src={{asset('images/topper5.jpeg')}} />
+                <div class="text-center">
+                    <h4>Aasim Shaikh Yusuf</h4>
+                    <h6>CLASS  &nbsp;  <b>XIIth Science</b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 98.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper7.jpeg')}} />
+                <div class="text-center">
+                    <h4>Tausif Shaikh Jamal</h4>
+                    <h6>CLASS  &nbsp;  <b>XIIth Arts</b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 90.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper3.jpeg')}} />
+                <div class="text-center">
+                    <h4>Bhagwan Babusingh Solanke</h4>
+                    <h6>CLASS  &nbsp;  <b>Xth A </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 98.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper4.jpg')}} />
+                <div class="text-center">
+                    <h4>Juned Khan Ismail</h4>
+                    <h6>CLASS  &nbsp;  <b>Xth B </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 97.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper5.jpeg')}} />
+                <div class="text-center">
+                    <h4>Tauki Shaikh Nawab</h4>
+                    <h6>CLASS  &nbsp;  <b>IXth A </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 92.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper6.jpeg')}} />
+                <div class="text-center">
+                    <h4>Musaddiqui Parvez Siddiqui</h4>
+                    <h6>CLASS  &nbsp;  <b>Xth C </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 94.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper7.jpeg')}} />
+                <div class="text-center">
+                    <h4>Sahil Farooque Deshmukh</h4>
+                    <h6>CLASS  &nbsp;  <b>VIIIth A </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 98.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper4.jpg')}} />
+                <div class="text-center">
+                    <h4>Ramiz Anis Shaikh</h4>
+                    <h6>CLASS  &nbsp;  <b>VIIth  B </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 91.23% </b> </h6>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <img src={{asset('images/topper6.jpeg')}} />
+                <div class="text-center">
+                    <h4>Abdul Rehman Salam Rangrez </h4>
+                    <h6>CLASS  &nbsp;  <b>VIth A </b> </h6>
+                    <h6>PERCENTAGE   &nbsp;<b> 97.23% </b> </h6>
+                </div>
+              </div>
+            </div>
+            {{-- <div class="swiper-pagination"></div> --}}
+    </div>
+   </div>
+</section>
 
 <!-- footer star -->
 
@@ -382,6 +468,29 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- Swiper JS -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script>
+    var swiper = new Swiper(".mySwiper", {
+      effect: "coverflow",
+      grabCursor: true,
+      centeredSlides: true,
+
+      loop: true,
+      slidesPerView: "auto",
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+      },
+    });
+  </script>
         <script>
         AOS.init({
             offset:300,

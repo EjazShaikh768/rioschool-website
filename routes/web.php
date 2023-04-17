@@ -45,3 +45,16 @@ Route::get('inspiration',function(){
 Route::get('activity',function(){
    return view('WebPages.activity');
 });
+// admin panel routing
+Route::get('admin',function(){
+    return view('admin.signin');
+ });
+Route::get('dashboard',function(){
+    return view('admin.dashboard');
+ });
+Route::get('message',function(){
+    return view('admin.messages');
+ });
+Route::get('bloging',function(){
+    return view('admin.blogs');
+ });

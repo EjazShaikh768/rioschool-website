@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="{{asset('favicon_io/apple-touch-icon.png')}}">
         <link rel="icon" href="{{asset('favicon_io/android-chrome-192x192.png')}}" sizes="192x192">
         <link rel="icon" href="{{asset('favicon_io/android-chrome-512x512.png')}}" sizes="512x512">
-        
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -67,10 +67,10 @@
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'gallery'}}">GALLERY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link " href="{{'activity'}}">ACTIVITY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link active" href="{{'contact'}}">CONTACT</a>
                                     </li>
@@ -89,10 +89,10 @@
     <div class="row">
         <div class="col-12">
             <img src={{ asset("images/schoolbg.webp")}} class="img-fluid" alt="">
-             
+
             <div class="centered">
             <h1>CONTACT US</h1>
-            </div> 
+            </div>
         </div>
     </div>
 </section>
@@ -127,16 +127,17 @@
                     <legend> Contact Form</legend>
                   <center> <div class="divider"></div></center>
                     <form action="" method="post">
+                        @csrf
                         <div class="form-group">
                             <label for="">Full Name</label>
                             <input type="text" class="form-control" name="fullname">
                         </div>
                         <div class="form-group">
-                            <label for="">Email</label>
+                            <label for="">Contact Number</label>
                             <input type="text" class="form-control" name="fullname">
                         </div>
                         <div class="form-group">
-                            <label for="">Contact Number</label>
+                            <label for="">Email</label>
                             <input type="text" class="form-control" name="fullname">
                         </div>
                         <div class="form-group">
@@ -154,7 +155,7 @@
                 </fieldset>
             </div>
             <div class="col-sm-12" data-aos="zoom-in">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14019.448249319603!2d77.291394!3d28.5438655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f73efa7317%3A0x76a062d37ab20633!2sRioforge%20Information%20solutions!5e0!3m2!1sen!2sin!4v1679771260973!5m2!1sen!2sin" 
+            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14019.448249319603!2d77.291394!3d28.5438655!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce5f73efa7317%3A0x76a062d37ab20633!2sRioforge%20Information%20solutions!5e0!3m2!1sen!2sin!4v1679771260973!5m2!1sen!2sin"
                 width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
            </div>
