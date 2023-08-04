@@ -17,7 +17,7 @@
         <link rel="apple-touch-icon" href="{{asset('favicon_io/apple-touch-icon.png')}}">
         <link rel="icon" href="{{asset('favicon_io/android-chrome-192x192.png')}}" sizes="192x192">
         <link rel="icon" href="{{asset('favicon_io/android-chrome-512x512.png')}}" sizes="512x512">
-        
+
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 
@@ -67,10 +67,10 @@
                                     </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'gallery'}}">GALLERY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'activity'}}">ACTIVITY</a>
-                                    </li> 
+                                    </li>
                                     <li class="nav-item">
                                     <a class="nav-link" href="{{'contact'}}">CONTACT</a>
                                     </li>
@@ -89,11 +89,11 @@
     <div class="row">
         <div class="col-12">
             <img src={{ asset("images/schoolbg.webp")}} class="img-fluid" alt="">
-             
+
             <div class="centered">
             <h1>OUR FAMILY</h1>
             <h4>Family   <b> > </b> <span >Non Teaching Staff</span></h4>
-            </div> 
+            </div>
         </div>
     </div>
 </section>
@@ -117,14 +117,14 @@
                 <img src={{asset('images/nonteaching2.jpg')}} class="img-fluid" alt="" >
                 <h2>Driver Staff</h2>
                 <center> <div class="divider mt-4"></div></center>
-            </div> 
+            </div>
             <div class="col-sm-12 col-md-6 mt-5  " data-aos="slide-up" >
                 <img src={{asset('images/nonteaching2.jpg')}} class="img-fluid  " alt="" >
                 <h2>Suportive Staff</h2>
                 <center> <div class="divider mt-4"></div></center>
             </div>
         </div>
-       
+
     </div>
 </section>
 

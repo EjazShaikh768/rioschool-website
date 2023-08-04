@@ -1,6 +1,9 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\AuthController;
+use App\Http\Controllers\CatController;
+use App\Http\Controllers\ContactController;
 
 /*
 |--------------------------------------------------------------------------
@@ -45,16 +48,46 @@ Route::get('inspiration',function(){
 Route::get('activity',function(){
    return view('WebPages.activity');
 });
+
+
+
 // admin panel routing
-Route::get('admin',function(){
-    return view('admin.signin');
+Route::get('admins',function(){
+    return redirect('admin.Login');
+});
+
+Route::get('admin',[AuthController::class,'Signin']);
+
+Route::post('admins',[AuthController::class,'admin_signin'])->name('admin_signin');
+
+Route::get('logout',[AuthController::class,'logout'])->name('logout');
+
+Route::get('dashboard',[AuthController::class,'dashboard'])->name('dashboard');
+
+Route::get('catshow',[CatController::class,'View'])->name('view');
+
+Route::get('see',[ContactController::class,'View']);
+// Route::get('dashboard',function(){
+//     return view('admin.Dashboard');
+//  });
+Route::get('signin',function(){
+    return view('admin.Signin');
  });
-Route::get('dashboard',function(){
-    return view('admin.dashboard');
+Route::get('Blog_cat',function(){
+    return view('admin.Blog_cat');
  });
-Route::get('message',function(){
-    return view('admin.messages');
+Route::get('Blogs',function(){
+    return view('admin.Blogs');
  });
-Route::get('bloging',function(){
-    return view('admin.blogs');
+Route::get('Gallery',function(){
+    return view('admin.Gallery');
+ });
+Route::get('Messages',function(){
+    return view('admin.Messages');
+ });
+Route::get('Our_toppers',function(){
+    return view('admin.Our_toppers');
+ });
+Route::get('Complaints',function(){
+    return view('admin.Complaints');
  });
